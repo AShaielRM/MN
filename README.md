@@ -1,5 +1,8 @@
 # MN
 Problemario de todos los temas de lamateria de métodos númericos.
+## Integrantes.
+- Gabriela Hernández Juárez.🦋
+- Aldo Shaiel Ruiz Martínez.🌪️
 # Importancia de los Métodos Numéricos
 
 ## 📘 ¿Qué son los métodos numéricos?
