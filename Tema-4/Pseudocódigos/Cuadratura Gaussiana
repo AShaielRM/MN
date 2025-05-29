@@ -1,0 +1,18 @@
+Inicio
+    Entrada: función f(x), límites a y b
+
+    Definir:
+        x1 = -1 / √3
+        x2 = 1 / √3
+        w1 = 1
+        w2 = 1
+
+    Cambiar variable:
+        t1 = ((b - a) / 2) * x1 + (a + b) / 2
+        t2 = ((b - a) / 2) * x2 + (a + b) / 2
+
+    Evaluar:
+        I = ((b - a) / 2) * [w1 * f(t1) + w2 * f(t2)]
+
+    Salida: I
+Fin
