@@ -1,0 +1,48 @@
+public class GaussGeneral {
+
+    // Tabla de nodos y pesos de Gauss-Legendre para n = 2 a 5
+    public static double[][] nodes = {
+        {},
+        {},
+        {-0.5773502692, 0.5773502692},
+        {-0.7745966692, 0.0, 0.7745966692},
+        {-0.8611363116, -0.3399810436, 0.3399810436, 0.8611363116},
+        {-0.9061798459, -0.5384693101, 0.0, 0.5384693101, 0.9061798459}
+    };
+
+    public static double[][] weights = {
+        {},
+        {},
+        {1.0, 1.0},
+        {0.5555555556, 0.8888888889, 0.5555555556},
+        {0.3478548451, 0.6521451549, 0.6521451549, 0.3478548451},
+        {0.2369268851, 0.4786286705, 0.5688888889, 0.4786286705, 0.2369268851}
+    };
+
+    public static double gaussLegendre(int n, double a, double b) {
+        if (n < 2 || n > 5) {
+            throw new IllegalArgumentException("Solo se permite n entre 2 y 5.");
+        }
+
+        double[] x = nodes[n];
+        double[] w = weights[n];
+
+        double suma = 0.0;
+        for (int i = 0; i < n; i++) {
+            double xi = ((b - a) / 2) * x[i] + (a + b) / 2;
+            suma += w[i] * f(xi);
+        }
+
+        return ((b - a) / 2) * suma;
+    }
+
+    public static double f(double x) {
+        return Math.log(1 + x);  // Ejemplo: f(x) = ln(1 + x)
+    }
+
+    public static void main(String[] args) {
+        double a = 0, b = 1;
+        int n = 5;
+        System.out.println("Resultado (n = " + n + "): " + gaussLegendre(n, a, b));
+    }
+}
