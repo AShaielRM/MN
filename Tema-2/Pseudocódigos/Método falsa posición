@@ -1,0 +1,31 @@
+INICIO
+    DEFINIR función f(x)
+    ENTRAR a (límite inferior)
+    ENTRAR b (límite superior)
+    ENTRAR tolerancia
+    ENTRAR máximo número de iteraciones maxIter
+
+    i ← 0
+    REPEAT
+        CALCULAR fa ← f(a)
+        CALCULAR fb ← f(b)
+        CALCULAR xr ← b - fb * (b - a) / (fb - fa)
+        CALCULAR fxr ← f(xr)
+        IMPRIMIR "Iteración", i+1, ": x =", redondear(xr, 2)
+
+        SI |fxr| < tolerancia ENTONCES
+            IMPRIMIR "Raíz aproximada:", redondear(xr, 2)
+            SALIR
+        FIN SI
+
+        SI fa * fxr < 0 ENTONCES
+            b ← xr
+        SINO
+            a ← xr
+        FIN SI
+
+        i ← i + 1
+    HASTA i = maxIter
+
+    IMPRIMIR "Máximo de iteraciones alcanzado sin convergencia"
+FIN
