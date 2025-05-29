@@ -17,4 +17,17 @@ Inicio
 
   Para j desde 1 hasta n-1 hacer
     Para i desde 0 hasta n-j-1 hacer
-      dd[i][j] ← (
+      dd[i][j] ← (dd[i+1][j-1] - dd[i][j-1]) / (x[i+j] - x[i])
+    FinPara
+  FinPara
+
+  P ← dd[0][0]
+  prod ← 1
+
+  Para i desde 1 hasta n-1 hacer
+    prod ← prod * (x_eval - x[i-1])
+    P ← P + dd[0][i] * prod
+  FinPara
+
+  Retornar P
+Fin
