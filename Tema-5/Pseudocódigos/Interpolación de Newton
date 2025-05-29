@@ -1,0 +1,20 @@
+Algoritmo Interpolación_Newton(x, y, x_eval)
+Entrada:
+  x: arreglo con n puntos x_i
+  y: arreglo con n valores f(x_i)
+  x_eval: punto donde se evalúa el polinomio
+
+Salida:
+  P(x_eval): valor interpolado
+
+Inicio
+  n ← longitud(x)
+  Crear matriz dd[n][n] ← 0
+
+  Para i desde 0 hasta n-1 hacer
+    dd[i][0] ← y[i]
+  FinPara
+
+  Para j desde 1 hasta n-1 hacer
+    Para i desde 0 hasta n-j-1 hacer
+      dd[i][j] ← (
