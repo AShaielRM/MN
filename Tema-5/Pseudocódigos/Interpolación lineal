@@ -1,0 +1,18 @@
+Algoritmo Interpolacion_Lineal(x, y, x_eval)
+Entrada:
+  x: arreglo de puntos
+  y: valores correspondientes
+  x_eval: valor a interpolar
+
+Salida:
+  y_eval: valor interpolado
+
+Inicio
+  Para i desde 0 hasta longitud(x)-2 hacer
+    Si x[i] ≤ x_eval ≤ x[i+1] entonces
+      y_eval ← y[i] + ( (y[i+1] - y[i]) / (x[i+1] - x[i]) ) * (x_eval - x[i])
+      Retornar y_eval
+    FinSi
+  FinPara
+  Retornar "x_eval fuera del rango"
+Fin
