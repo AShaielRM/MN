@@ -1,0 +1,18 @@
+INICIO
+  PASO 1: Definir un número real con muchas cifras decimales
+          Ejemplo: numero_original ← 3.141592
+
+  PASO 2: Redondear el número a 2 cifras decimales
+          numero_redondeado ← redondear(numero_original, 2)
+
+  PASO 3: Mostrar el número original y el redondeado
+          Imprimir "Original: ", numero_original
+          Imprimir "Redondeado: ", numero_redondeado
+
+  PASO 4: Calcular el error de redondeo
+          error ← numero_original - numero_redondeado
+
+  PASO 5: Mostrar el error
+          Imprimir "Error de redondeo: ", error
+
+FIN
