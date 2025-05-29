@@ -1,0 +1,24 @@
+INICIO
+  PASO 1: Definir dos números reales muy cercanos
+          Ejemplo: a ← 1.000001, b ← 1.000000
+
+  PASO 2: Calcular la resta directa
+          resta ← a - b
+
+  PASO 3: Mostrar el resultado de la resta
+          Imprimir "Resta directa: ", resta
+
+  PASO 4: Reescribir la operación con identidad algebraica para evitar cancelación
+          Ejemplo: (a^2 - b^2) / (a + b)
+          numerador ← a^2 - b^2
+          denominador ← a + b
+          resultado_alternativo ← numerador / denominador
+
+  PASO 5: Mostrar resultado alternativo sin cancelación
+          Imprimir "Resultado con técnica alternativa: ", resultado_alternativo
+
+  PASO 6: Calcular error relativo si aplica
+          error ← |resta - resultado_alternativo| / |resultado_alternativo|
+          Imprimir "Error relativo: ", error
+
+FIN
