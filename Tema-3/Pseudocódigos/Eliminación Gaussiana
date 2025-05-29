@@ -1,0 +1,31 @@
+PSEUDOCÓDIGO: ELIMINACIÓN GAUSSIANA
+
+ENTRADA:
+- Matriz A de tamaño n x n (coeficientes del sistema)
+- Vector b de tamaño n (términos independientes)
+
+SALIDA:
+- Vector x de tamaño n (solución del sistema Ax = b)
+
+INICIO
+1. Para k desde 0 hasta n-2 hacer
+    a. Para i desde k+1 hasta n-1 hacer
+        i.   factor ← A[i][k] / A[k][k]
+        ii.  Para j desde k hasta n-1 hacer
+             A[i][j] ← A[i][j] - factor * A[k][j]
+        iii. b[i] ← b[i] - factor * b[k]
+    b. Fin Para
+2. Fin Para
+
+3. x[n-1] ← b[n-1] / A[n-1][n-1]
+
+4. Para i desde n-2 hasta 0 con paso -1 hacer
+    a. suma ← 0
+    b. Para j desde i+1 hasta n-1 hacer
+        suma ← suma + A[i][j] * x[j]
+    c. Fin Para
+    d. x[i] ← (b[i] - suma) / A[i][i]
+5. Fin Para
+
+6. Retornar x
+FIN
