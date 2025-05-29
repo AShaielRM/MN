@@ -1,0 +1,17 @@
+Inicio
+    Entrada: función f(x), extremos a y b, número de subintervalos n
+
+    Calcular:
+        h = (b - a) / n
+        suma = f(a) + f(b)
+
+    Para i desde 1 hasta n - 1 hacer:
+        xi = a + i * h
+        suma = suma + 2 * f(xi)
+    Fin Para
+
+    Resultado:
+        I = (h / 2) * suma
+
+    Salida: I
+Fin
