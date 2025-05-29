@@ -1,0 +1,20 @@
+Algoritmo Correlacion(x, y)
+Entrada:
+  x, y: arreglos de datos
+
+Salida:
+  r: coeficiente de correlación de Pearson
+
+Inicio
+  n ← longitud(x)
+  media_x ← promedio(x)
+  media_y ← promedio(y)
+
+  num ← suma((x[i] - media_x) * (y[i] - media_y))
+  den_x ← suma((x[i] - media_x)^2)
+  den_y ← suma((y[i] - media_y)^2)
+
+  r ← num / sqrt(den_x * den_y)
+
+  Retornar r
+Fin
