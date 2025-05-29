@@ -1,0 +1,28 @@
+PSEUDOCÓDIGO: GAUSS-JORDAN
+
+ENTRADA:
+- Matriz A de tamaño n x n
+- Vector b de tamaño n
+
+SALIDA:
+- Vector x de tamaño n (solución del sistema Ax = b)
+
+INICIO
+1. Formar matriz aumentada M de tamaño n x (n+1): M ← [A | b]
+
+2. Para i desde 0 hasta n-1 hacer
+    a. Dividir toda la fila i por M[i][i] para hacer el pivote igual a 1
+    b. Para j desde 0 hasta n-1 hacer
+        Si j ≠ i entonces
+            factor ← M[j][i]
+            Para k desde 0 hasta n hacer
+                M[j][k] ← M[j][k] - factor * M[i][k]
+    c. Fin Para
+3. Fin Para
+
+4. Para i desde 0 hasta n-1 hacer
+    x[i] ← M[i][n]
+5. Fin Para
+
+6. Retornar x
+FIN
