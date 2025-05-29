@@ -50,7 +50,7 @@ Como estudiante de sistemas computacionales, los métodos numéricos te ayudará
 | # | Tema                                     | Códigos                                   |
 |---|------------------------------------------|-------------------------------------------|
 | 1 | Introducción a los métodos numéricos     | [📁 Ver códigos](Tema-1) |
-| 2 | Solución de ecuaciones no lineales       | [📁 Ver códigos](./codigos/02_no_lineales)  |
+| 2 | Solución de ecuaciones no lineales       | [📁 Ver códigos](Tema-2)  |
 | 3 | Sistemas de ecuaciones lineales          | [📁 Ver códigos](./codigos/03_sistemas)     |
 | 4 | Diferenciación e integración numérica    | [📁 Ver códigos](./codigos/04_diferenciacion_integracion) |
 | 5 | Interpolación y ajuste de datos          | [📁 Ver códigos](./codigos/05_interpolacion) |
