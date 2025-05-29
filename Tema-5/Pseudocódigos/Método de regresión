@@ -1,0 +1,20 @@
+Algoritmo Regresion_Lineal(x, y)
+Entrada:
+  x: arreglo de valores independientes
+  y: arreglo de valores dependientes
+
+Salida:
+  a, b: coeficientes de la recta y = a*x + b
+
+Inicio
+  n ← longitud(x)
+  sum_x ← suma(x)
+  sum_y ← suma(y)
+  sum_xy ← suma(x[i]*y[i])
+  sum_x2 ← suma(x[i]^2)
+
+  a ← (n * sum_xy - sum_x * sum_y) / (n * sum_x2 - sum_x^2)
+  b ← (sum_y - a * sum_x) / n
+
+  Retornar a, b
+Fin
