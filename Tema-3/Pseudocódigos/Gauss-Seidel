@@ -1,0 +1,29 @@
+PSEUDOCÓDIGO: GAUSS-SEIDEL
+
+ENTRADA:
+- Matriz A de tamaño n x n
+- Vector b de tamaño n
+- Tolerancia ε
+- Máximo de iteraciones max_iter
+
+SALIDA:
+- Vector x de tamaño n (solución aproximada)
+
+INICIO
+1. Inicializar x[i] ← 0 para i = 0 hasta n-1
+
+2. Para iteración desde 1 hasta max_iter hacer
+    a. x_anterior ← copia de x
+    b. Para i desde 0 hasta n-1 hacer
+        i.   suma ← 0
+        ii.  Para j desde 0 hasta n-1 hacer
+             Si j ≠ i entonces
+                suma ← suma + A[i][j] * x[j]
+        iii. x[i] ← (b[i] - suma) / A[i][i]
+    c. Fin Para
+    d. Si norma(x - x_anterior) < ε entonces
+        Salir del ciclo
+3. Fin Para
+
+4. Retornar x
+FIN
