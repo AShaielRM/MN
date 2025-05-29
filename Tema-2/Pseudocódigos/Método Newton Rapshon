@@ -1,0 +1,27 @@
+INICIO
+    DEFINIR función f(x)
+    DEFINIR derivada f'(x)
+    ENTRAR x0 (valor inicial)
+    ENTRAR tolerancia
+    ENTRAR máximo número de iteraciones maxIter
+
+    i ← 0
+    REPETIR
+        CALCULAR fx ← f(x0)
+        CALCULAR dfx ← f'(x0)
+        SI dfx = 0 ENTONCES
+            IMPRIMIR "Error: derivada cero"
+            SALIR
+        FIN SI
+        CALCULAR x1 ← x0 - (fx / dfx)
+        IMPRIMIR "Iteración", i+1, ": x =", redondear(x1, 2)
+        SI |x1 - x0| < tolerancia ENTONCES
+            IMPRIMIR "Raíz aproximada:", redondear(x1, 2)
+            SALIR
+        FIN SI
+        x0 ← x1
+        i ← i + 1
+    HASTA i = maxIter
+
+    IMPRIMIR "Máximo de iteraciones alcanzado sin convergencia"
+FIN
