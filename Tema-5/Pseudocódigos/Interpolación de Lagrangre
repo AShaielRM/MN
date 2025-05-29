@@ -1,0 +1,25 @@
+Algoritmo Interpolación_Lagrange(x, y, x_eval)
+Entrada:
+  x: arreglo con n puntos x_i
+  y: arreglo con n valores f(x_i)
+  x_eval: punto donde se evalúa el polinomio
+
+Salida:
+  P(x_eval): valor interpolado
+
+Inicio
+  n ← longitud(x)
+  P ← 0
+
+  Para i desde 0 hasta n-1 hacer
+    L ← 1
+    Para j desde 0 hasta n-1 hacer
+      Si j ≠ i entonces
+        L ← L * (x_eval - x[j]) / (x[i] - x[j])
+      FinSi
+    FinPara
+    P ← P + y[i] * L
+  FinPara
+
+  Retornar P
+Fin
