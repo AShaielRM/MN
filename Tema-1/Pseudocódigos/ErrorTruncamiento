@@ -1,0 +1,24 @@
+INICIO
+  PASO 1: Definir función f(x) a derivar, por ejemplo f(x) = sen(x)
+
+  PASO 2: Definir el punto donde se evaluará, por ejemplo x ← 1.0
+
+  PASO 3: Definir paso pequeño h ← 0.01
+
+  PASO 4: Calcular derivada aproximada con diferencia hacia adelante
+          f1 ← f(x + h)
+          f0 ← f(x)
+          derivada_aprox ← (f1 - f0) / h
+
+  PASO 5: Calcular valor exacto de la derivada si se conoce
+          derivada_real ← cos(x)
+
+  PASO 6: Calcular el error de truncamiento
+          error_trunc ← |derivada_real - derivada_aprox|
+
+  PASO 7: Mostrar resultados
+          Imprimir "Derivada aproximada: ", derivada_aprox
+          Imprimir "Derivada real: ", derivada_real
+          Imprimir "Error de truncamiento: ", error_trunc
+
+FIN
