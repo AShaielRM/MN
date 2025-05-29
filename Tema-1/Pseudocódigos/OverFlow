@@ -1,0 +1,23 @@
+INICIO
+  PASO 1: Definir una variable entera al valor máximo permitido
+          numero ← VALOR_MAXIMO_ENTERO  (por ejemplo, 2147483647)
+
+  PASO 2: Mostrar valor inicial
+          Imprimir "Valor inicial: ", numero
+
+  PASO 3: Incrementar o multiplicar la variable para causar overflow
+          numero ← numero + 1
+
+  PASO 4: Mostrar resultado después del overflow
+          Imprimir "Valor después del incremento: ", numero
+
+  PASO 5: Comparar con tipo de dato más grande (long)
+          numero_long ← (long) VALOR_MAXIMO_ENTERO + 1
+          Imprimir "Valor correcto con long: ", numero_long
+
+  PASO 6: Explicar si hay error o comportamiento incorrecto
+          Si numero < 0 entonces
+              Imprimir "¡Overflow detectado! Resultado inválido"
+          FinSi
+
+FIN
