@@ -47,12 +47,12 @@ Como estudiante de sistemas computacionales, los métodos numéricos te ayudará
 
 ## 📚 Módulos Implementados
 
-| # | Tema                                     | Códigos                                   |
-|---|------------------------------------------|-------------------------------------------|
-| 1 | Introducción a los métodos numéricos     | [📁 Ver códigos](Tema-1) |
-| 2 | Solución de ecuaciones no lineales       | [📁 Ver códigos](Tema-2)  |
-| 3 | Sistemas de ecuaciones lineales          | [📁 Ver códigos](Tema-3)     |
-| 4 | Diferenciación e integración numérica    | [📁 Ver códigos](Tema-4) |
-| 5 | Interpolación y ajuste de datos          | [📁 Ver códigos](Tema-5) |
-| 6 | Ecuaciones diferenciales ordinarias      | [📁 Ver códigos](./codigos/06_EDO)           |
+| # | Tema                                     | Códigos                                   | Información de apoyo                      |
+|---|------------------------------------------|-------------------------------------------|------------------------------------------|
+| 1 | Introducción a los métodos numéricos     | [📁 Ver códigos](Tema-1)                   | [🔗 Link 1]()                            |
+| 2 | Solución de ecuaciones no lineales       | [📁 Ver códigos](Tema-2)                   | [🔗 Link 2]()                            |
+| 3 | Sistemas de ecuaciones lineales          | [📁 Ver códigos](Tema-3)                   | [🔗 Link 3]()                            |
+| 4 | Diferenciación e integración numérica    | [📁 Ver códigos](Tema-4)                   | [🔗 Link 4]()                            |
+| 5 | Interpolación y ajuste de datos          | [📁 Ver códigos](Tema-5)                   | [🔗 Link 5]()                            |
+| 6 | Ecuaciones diferenciales ordinarias      | [📁 Ver códigos](./codigos/06_EDO)        | [🔗 Link 6]()                            |
 
