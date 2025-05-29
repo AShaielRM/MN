@@ -1,5 +1,5 @@
 # MN
-Problemario de todos los temas de lamateria de métodos númericos.
+Problemario de todos los temas de la materia de métodos númericos.
 ## Integrantes.
 - Gabriela Hernández Juárez.🦋
 - Aldo Shaiel Ruiz Martínez.🌪️
