@@ -1,0 +1,23 @@
+Inicio
+    Entrada: función f(x), extremos a y b, número de subintervalos n
+
+    Verificar que n es múltiplo de 3:
+        Si no lo es, mostrar error y terminar
+
+    Calcular:
+        h = (b - a) / n
+        suma = f(a) + f(b)
+
+    Para i desde 1 hasta n - 1 hacer:
+        xi = a + i * h
+        Si i mod 3 = 0 entonces
+            suma = suma + 2 * f(xi)
+        Sino
+            suma = suma + 3 * f(xi)
+    Fin Para
+
+    Resultado:
+        I = (3 * h / 8) * suma
+
+    Salida: I
+Fin
