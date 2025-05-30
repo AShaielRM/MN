@@ -1,0 +1,24 @@
+Algoritmo MetodoRungeKutta4
+Entrada:
+    f(x, y): función derivada dy/dx
+    x0: valor inicial de x
+    y0: valor inicial de y
+    h: tamaño de paso
+    n: número de pasos
+
+Proceso:
+    Para i desde 1 hasta n hacer
+        k1 ← f(x0, y0)
+        k2 ← f(x0 + h/2, y0 + h*k1/2)
+        k3 ← f(x0 + h/2, y0 + h*k2/2)
+        k4 ← f(x0 + h, y0 + h*k3)
+
+        y0 ← y0 + (h / 6) * (k1 + 2*k2 + 2*k3 + k4)
+        x0 ← x0 + h
+
+        Imprimir x0, y0
+    Fin Para
+
+Salida:
+    Aprox. y(x0)
+Fin Algoritmo
