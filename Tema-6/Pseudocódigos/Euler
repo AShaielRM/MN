@@ -1,0 +1,18 @@
+Algoritmo MetodoDeEuler
+Entrada:
+    f(x, y): función derivada dy/dx
+    x0: valor inicial de x
+    y0: valor inicial de y
+    h: tamaño de paso
+    n: número de pasos
+
+Proceso:
+    Para i desde 1 hasta n hacer
+        y0 ← y0 + h * f(x0, y0)
+        x0 ← x0 + h
+        Imprimir x0, y0
+    Fin Para
+
+Salida:
+    Aprox. y(x0)
+Fin Algoritmo
