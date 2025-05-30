@@ -49,10 +49,10 @@ Como estudiante de sistemas computacionales, los métodos numéricos te ayudará
 
 | # | Tema                                     | Códigos                                   | Información de apoyo                      |
 |---|------------------------------------------|-------------------------------------------|------------------------------------------|
-| 1 | Introducción a los métodos numéricos     | [📁 Ver códigos](Tema-1)                   | [🔗 Link 1](Tema-1/Tema1.md)                            |
-| 2 | Solución de ecuaciones no lineales       | [📁 Ver códigos](Tema-2)                   | [🔗 Link 2]()                            |
-| 3 | Sistemas de ecuaciones lineales          | [📁 Ver códigos](Tema-3)                   | [🔗 Link 3]()                            |
-| 4 | Diferenciación e integración numérica    | [📁 Ver códigos](Tema-4)                   | [🔗 Link 4]()                            |
-| 5 | Interpolación y ajuste de datos          | [📁 Ver códigos](Tema-5)                   | [🔗 Link 5]()                            |
-| 6 | Ecuaciones diferenciales ordinarias      | [📁 Ver códigos](./codigos/06_EDO)        | [🔗 Link 6]()                            |
+| 1 | Introducción a los métodos numéricos     | [📁 Ver códigos](Tema-1)                   | [Tema 1](Tema-1/Tema1.md)                            |
+| 2 | Solución de ecuaciones no lineales       | [📁 Ver códigos](Tema-2)                   | [Tema 2]()                            |
+| 3 | Sistemas de ecuaciones lineales          | [📁 Ver códigos](Tema-3)                   | [Tema 3]()                            |
+| 4 | Diferenciación e integración numérica    | [📁 Ver códigos](Tema-4)                   | [Tema 4](Tema-4/Tema4.md)                            |
+| 5 | Interpolación y ajuste de datos          | [📁 Ver códigos](Tema-5)                   | [Tema 5](Tema-5/Tema5.md)                            |
+| 6 | Ecuaciones diferenciales ordinarias      | [📁 Ver códigos](Tema-6)                   | [Tema 6](Tema-6/Tema6.md)                            |
 
