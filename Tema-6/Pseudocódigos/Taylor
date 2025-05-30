@@ -1,0 +1,23 @@
+Algoritmo MetodoTaylorSegundoOrden
+Entrada:
+    f(x, y): función derivada dy/dx
+    f2(x, y): segunda derivada d²y/dx²
+    x0: valor inicial de x
+    y0: valor inicial de y
+    h: tamaño de paso
+    n: número de pasos
+
+Proceso:
+    Para i desde 1 hasta n hacer
+        dy ← f(x0, y0)
+        d2y ← f2(x0, y0)
+
+        y0 ← y0 + h * dy + (h^2 / 2) * d2y
+        x0 ← x0 + h
+
+        Imprimir x0, y0
+    Fin Para
+
+Salida:
+    Aprox. y(x0)
+Fin Algoritmo
