@@ -1,48 +1,50 @@
-# MN
-Problemario de todos los temas de la materia de métodos númericos.
-## Integrantes.
-- Aldo Shaiel Ruiz Martínez.🌪️
-# Importancia de los Métodos Numéricos
+MN
+Compendio de ejercicios abarcando todos los temas de la asignatura de Métodos Numéricos.
 
-## 📘 ¿Qué son los métodos numéricos?
-Los métodos numéricos son técnicas matemáticas utilizadas para obtener soluciones aproximadas a problemas que no pueden resolverse de forma exacta. Son esenciales cuando las ecuaciones son muy complejas, no tienen solución analítica o simplemente no pueden resolverse con métodos algebraicos tradicionales.
+Integrantes
+Gabriela Hernández Juárez. 🌪️
 
----
+Relevancia de los Métodos Numéricos
+📘 ¿Qué implican los métodos numéricos?
+Son herramientas matemáticas que permiten obtener soluciones aproximadas a problemas donde no es viable aplicar métodos exactos. Son cruciales cuando las ecuaciones son demasiado complicadas o carecen de soluciones analíticas.
 
-## 🎯 ¿Por qué son importantes?
+🎯 ¿Por qué son fundamentales?
+1. Resolución de situaciones complejas
+Facilitan el análisis y solución de problemas reales que no pueden abordarse directamente, como los que incluyen ecuaciones diferenciales, integraciones avanzadas o grandes conjuntos de datos.
 
-### 1. Solución de problemas complejos
-Permiten abordar problemas del mundo real que no pueden resolverse fácilmente con métodos exactos, como los que involucran ecuaciones diferenciales, integrales complicadas o grandes volúmenes de datos.
+2. Orientados al entorno computacional
+Están pensados para ser programados, lo que permite automatizar procesos largos y obtener resultados con mayor rapidez mediante software.
 
-### 2. Implementación computacional
-Están diseñados para ser implementados en computadoras, lo cual permite automatizar cálculos extensos y obtener soluciones rápidamente usando programación.
+3. Minimización de errores
+Gracias a su naturaleza algorítmica, reducen los errores que suelen surgir en cálculos manuales y permiten ajustar la precisión de los resultados.
 
-### 3. Reducción de errores humanos
-Al seguir algoritmos bien definidos, los métodos numéricos reducen el margen de error humano en los cálculos y permiten controlar la precisión del resultado.
+4. Optimización de recursos
+Agilizan la resolución de problemas extensos, economizando tiempo y esfuerzo tanto humano como computacional.
 
-### 4. Ahorro de tiempo y recursos
-Son herramientas eficientes que permiten resolver problemas grandes en poco tiempo, ahorrando recursos computacionales y tiempo de trabajo.
+5. Apoyo al enfoque analítico
+Sirven como complemento a los métodos tradicionales, brindando soluciones viables cuando los métodos clásicos no son factibles.
 
-### 5. Complemento del análisis matemático
-No reemplazan los métodos analíticos, pero los complementan cuando éstos no son aplicables, ofreciendo soluciones aproximadas confiables.
+6. Uso en múltiples disciplinas
+Ingeniería: análisis estructural, simulación de circuitos, dinámica térmica.
 
-### 6. Aplicaciones en diversas áreas
-- **Ingeniería**: diseño de estructuras, circuitos, análisis de sistemas térmicos y dinámicos.
-- **Ciencias computacionales**: gráficos, simulaciones físicas, machine learning.
-- **Física y química**: simulación de partículas, reacciones, modelos cuánticos.
-- **Economía y finanzas**: modelos predictivos, optimización de recursos, simulaciones.
+Computación: modelado, gráficos, inteligencia artificial.
 
----
+Física y química: simulaciones moleculares, estudios cuánticos.
 
-## 💻 Aplicación en la carrera de Sistemas Computacionales
+Finanzas y economía: pronósticos, optimización, modelos estadísticos.
 
-Como estudiante de sistemas computacionales, los métodos numéricos te ayudarán a:
-- Desarrollar algoritmos para resolver ecuaciones, interpolar datos o encontrar raíces.
-- Implementar soluciones numéricas usando lenguajes como **Python, C#, Java o MATLAB**.
-- Aplicar análisis de errores y validar resultados en contextos reales.
-- Construir simulaciones o programas científicos con bases matemáticas sólidas.
+💻 Aplicación en Ingeniería en Sistemas Computacionales
+En esta carrera, los métodos numéricos permiten:
 
----
+Crear algoritmos para resolver ecuaciones, hacer interpolaciones o encontrar raíces.
+
+Desarrollar programas en Python, Java, C#, MATLAB, entre otros.
+
+Evaluar y controlar los errores asociados a las soluciones numéricas.
+
+Implementar modelos computacionales robustos con fundamentos matemáticos.
+
+
 
 ## 📚 Módulos Implementados
 
